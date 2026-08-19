@@ -1,0 +1,42 @@
+add_namespace = zappatori_event
+
+# Invito a unirsi alla fazione dei Nuovi Zappatori
+country_event = {
+	id = zappatori_event.1
+	title = zappatori_event.1.t
+	desc = zappatori_event.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = zappatori_event.1.a
+		ai_chance = {
+			factor = 100
+		}
+		FROM = {
+			add_to_faction = ROOT
+		}
+		add_opinion_modifier = {
+			target = FROM
+			modifier = zappatori_brotherhood_opinion
+		}
+		FROM = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = zappatori_brotherhood_opinion
+			}
+		}
+	}
+
+	option = {
+		name = zappatori_event.1.b
+		ai_chance = {
+			factor = 0
+		}
+		add_opinion_modifier = {
+			target = FROM
+			modifier = zappatori_rejection_opinion
+		}
+	}
+}

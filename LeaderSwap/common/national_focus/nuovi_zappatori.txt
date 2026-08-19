@@ -1,0 +1,205 @@
+shared_focus = {
+	id = ZAP_patto_dei_zappatori
+	icon = GFX_goal_generic_political_pressure
+	x = 24
+	y = 0
+
+	offset = {
+		x = 58
+		y = 0
+		trigger = {
+			tag = GER
+		}
+	}
+
+	offset = {
+		x = 31
+		y = 0
+		trigger = {
+			tag = ITA
+		}
+	}
+
+	offset = {
+		x = 26
+		y = 0
+		trigger = {
+			tag = TUR
+		}
+	}
+
+	cost = 5
+
+	available = {
+		OR = {
+			tag = ITA
+			tag = GER
+			tag = TUR
+		}
+	}
+
+	bypass = {
+		has_completed_focus = ZAP_patto_dei_zappatori
+	}
+
+	completion_reward = {
+		add_political_power = 120
+		add_stability = 0.05
+		add_timed_idea = {
+			idea = patto_agricolo_zappatori
+			days = 365
+		}
+	}
+}
+
+shared_focus = {
+	id = ZAP_fondazione_nuovi_zappatori
+	icon = GFX_goal_generic_major_alliance
+	prerequisite = { focus = ZAP_patto_dei_zappatori }
+	relative_position_id = ZAP_patto_dei_zappatori
+	x = 0
+	y = 1
+	cost = 5
+
+	available = {
+		OR = {
+			tag = ITA
+			tag = GER
+			tag = TUR
+		}
+	}
+
+	completion_reward = {
+		if = {
+			limit = {
+				is_in_faction = no
+			}
+			set_rule = { can_create_factions = yes }
+			create_faction = "I Nuovi Zappatori"
+		}
+		else = {
+			set_faction_name = "I Nuovi Zappatori"
+		}
+
+		if = {
+			limit = {
+				NOT = { tag = ITA }
+				country_exists = ITA
+			}
+			ITA = {
+				country_event = { id = zappatori_event.1 days = 1 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { tag = GER }
+				country_exists = GER
+			}
+			GER = {
+				country_event = { id = zappatori_event.1 days = 1 }
+			}
+		}
+		if = {
+			limit = {
+				NOT = { tag = TUR }
+				country_exists = TUR
+			}
+			TUR = {
+				country_event = { id = zappatori_event.1 days = 1 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ZAP_industrializzazione_agricola
+	icon = GFX_goal_generic_production
+	prerequisite = { focus = ZAP_fondazione_nuovi_zappatori }
+	relative_position_id = ZAP_patto_dei_zappatori
+	x = -2
+	y = 2
+	cost = 5
+
+	available = {
+		is_in_faction = yes
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = ZAP_fratellanza_delle_trincee
+	icon = GFX_goal_generic_army_doctrines
+	prerequisite = { focus = ZAP_fondazione_nuovi_zappatori }
+	relative_position_id = ZAP_patto_dei_zappatori
+	x = 2
+	y = 2
+	cost = 5
+
+	available = {
+		is_in_faction = yes
+	}
+
+	completion_reward = {
+		add_ideas = spirito_dei_zappatori
+		army_experience = 35
+	}
+}
+
+shared_focus = {
+	id = ZAP_dominio_dei_zappatori
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = ZAP_industrializzazione_agricola }
+	prerequisite = { focus = ZAP_fratellanza_delle_trincee }
+	relative_position_id = ZAP_patto_dei_zappatori
+	x = 0
+	y = 3
+	cost = 5
+
+	available = {
+		is_in_faction = yes
+	}
+
+	completion_reward = {
+		add_war_support = 0.10
+		add_tech_bonus = {
+			name = zap_tech_sharing
+			bonus = 1.0
+			uses = 2
+			category = industry
+			category = land_doctrine
+		}
+		add_political_power = 150
+	}
+}
