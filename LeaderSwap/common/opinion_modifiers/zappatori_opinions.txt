@@ -1,0 +1,9 @@
+opinion_modifiers = {
+	zappatori_brotherhood_opinion = {
+		value = 100
+		trade = yes
+	}
+	zappatori_rejection_opinion = {
+		value = -50
+	}
+}

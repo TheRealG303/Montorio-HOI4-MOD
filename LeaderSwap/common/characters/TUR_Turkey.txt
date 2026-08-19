@@ -15,6 +15,9 @@ characters = {
             expire = "1965.1.1"
             id = -1
             traits = { 
+		father_of_the_turks
+		fascist_sympathies
+		conservative_nationalist_lar
                 dictator
                 ruthless_despot
             }

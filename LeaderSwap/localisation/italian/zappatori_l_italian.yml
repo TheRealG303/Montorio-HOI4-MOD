@@ -1,0 +1,29 @@
+﻿l_italian:
+ # Focus Tree
+ ZAP_patto_dei_zappatori:0 "Il Patto della Vanga"
+ ZAP_patto_dei_zappatori_desc:0 "Salvatore Grasso, Lorenzo Capezzali e Patrizio Vitelli pongono le basi di un'alleanza strategica basata sulla supremazia militare e la zappatura instancabile."
+ ZAP_fondazione_nuovi_zappatori:0 "I Nuovi Zappatori"
+ ZAP_fondazione_nuovi_zappatori_desc:0 "Nasce ufficialmente l'alleanza de 'I Nuovi Zappatori' tra Italia, Germania e Turchia, pronta a dominare il mondo."
+ ZAP_industrializzazione_agricola:0 "Zappatura Industriale"
+ ZAP_industrializzazione_agricola_desc:0 "Potenziamo le fabbriche e le infrastrutture per supportare la nostra causa comune con una capacità produttiva inarrestabile."
+ ZAP_fratellanza_delle_trincee:0 "Fratellanza delle Trincee"
+ ZAP_fratellanza_delle_trincee_desc:0 "I nostri soldati scavano trincee invalicabili e avanzano con furore: la fratellanza dei Zappatori è indistruttibile."
+ ZAP_dominio_dei_zappatori:0 "Il Grande Dominio dei Zappatori"
+ ZAP_dominio_dei_zappatori_desc:0 "Unione dottrinale, condivisione tecnologica e supremazia geopolitica per i Nuovi Zappatori."
+ zap_tech_sharing:0 "Condivisione Tecnologica dei Zappatori"
+
+ # Events
+ zappatori_event.1.t:0 "Invito nei Nuovi Zappatori"
+ zappatori_event.1.d:0 "I nostri alleati storici ci hanno invitato formalmente ad entrare nella fazione de 'I Nuovi Zappatori'. Unirsi significa proteggersi a vicenda ed espandere la nostra influenza comune."
+ zappatori_event.1.a:0 "Accetta con onore e impugna la vanga!"
+ zappatori_event.1.b:0 "Rifiuta l'offerta."
+
+ # Ideas / National Spirits
+ spirito_dei_zappatori:0 "Spirito dei Zappatori"
+ spirito_dei_zappatori_desc:0 "La ferrea disciplina dello zappatore infonde coraggio nei soldati e rende le nostre difese e offensive inespugnabili."
+ patto_agricolo_zappatori:0 "Patto della Vanga"
+ patto_agricolo_zappatori_desc:0 "Gli accordi industriali e di cooperazione garantiscono una rapida crescita economica."
+
+ # Opinion Modifiers
+ zappatori_brotherhood_opinion:0 "Fratellanza dei Zappatori"
+ zappatori_rejection_opinion:0 "Rifiuto dei Zappatori"

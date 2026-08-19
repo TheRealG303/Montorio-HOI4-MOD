@@ -7,5 +7,5 @@ create_country_leader = {
     traits = {
         dictator
         ruthless_despot
-
+    }
 }

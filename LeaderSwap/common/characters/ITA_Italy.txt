@@ -16,6 +16,9 @@ characters = {
             id = -1
             traits = { 
                 dictator
+		conservative_nationalist_lar
+		fascist_sympathies
+		il_duce
                 ruthless_despot
             }
         }

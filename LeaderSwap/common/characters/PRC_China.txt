@@ -17,6 +17,7 @@ characters = {
             traits = { 
 		cornered_fox 
                 dictator
+		conservative_nationalist_lar
                 ruthless_despot
             }
         }

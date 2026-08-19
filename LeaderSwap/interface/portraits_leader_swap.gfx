@@ -13,7 +13,7 @@ spriteTypes = {
     }
 	spriteType = {
         name = "GFX_portrait_PRC_jiajun_leonardo_cai"
-        texturefile = "gfx/leaders/PRC/PRC_jiajun_leonardo_cai.dss"
+        texturefile = "gfx/leaders/PRC/PRC_jiajun_leonardo_cai.dds"
     }
 	
 }
