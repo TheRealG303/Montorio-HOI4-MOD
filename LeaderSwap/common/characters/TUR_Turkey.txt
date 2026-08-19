@@ -1,17 +1,17 @@
 characters = {
-    GER_salvatore_grasso = {
-        name = GER_salvatore_grasso
+    TUR_patrizio_vitelli = {
+        name = TUR_patrizio_vitelli
         portraits = {
             civilian = {
-                large = GFX_portrait_GER_salvatore_grasso
+                large = GFX_portrait_TUR_patrizio_vitelli
             }
             army = {
-                large = GFX_portrait_GER_salvatore_grasso
+                large = GFX_portrait_TUR_patrizio_vitelli
             }
         }
         
         country_leader = {
-            ideology = fascism_ideology
+            ideology = despotism
             expire = "1965.1.1"
             id = -1
             traits = { 
@@ -20,4 +20,5 @@ characters = {
             }
         }
     }
+
 }

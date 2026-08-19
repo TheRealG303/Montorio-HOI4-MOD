@@ -7,4 +7,13 @@ spriteTypes = {
         name = "GFX_portrait_ITA_lorenzo_capezzali"
         texturefile = "gfx/leaders/ITA/ITA_lorenzo_capezzali.dds"
     }
+	spriteType = {
+        name = "GFX_portrait_TUR_patrizio_vitelli"
+        texturefile = "gfx/leaders/TUR/TUR_patrizio_vitelli.dds"
+    }
+	spriteType = {
+        name = "GFX_portrait_PRC_jiajun_leonardo_cai"
+        texturefile = "gfx/leaders/PRC/PRC_jiajun_leonardo_cai.dss"
+    }
+	
 }

@@ -1,0 +1,11 @@
+create_country_leader = {
+    name = "Patrizio Vitelli"
+    desc = "POLITICS_PATRIZIO_VITELLI_DESC"
+    picture = GFX_portrait_TUR_patrizio_vitelli
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        dictator
+        ruthless_despot
+
+}

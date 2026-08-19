@@ -1,23 +1,25 @@
 characters = {
-    GER_salvatore_grasso = {
-        name = GER_salvatore_grasso
+    PRC_jiajun_leonardo_cai = {
+        name = PRC_jiajun_leonardo_cai
         portraits = {
             civilian = {
-                large = GFX_portrait_GER_salvatore_grasso
+                large = GFX_portrait_PRC_jiajun_leonardo_cai
             }
             army = {
-                large = GFX_portrait_GER_salvatore_grasso
+                large = GFX_portrait_PRC_jiajun_leonardo_cai
             }
         }
         
         country_leader = {
-            ideology = fascism_ideology
+            ideology = marxism
             expire = "1965.1.1"
             id = -1
             traits = { 
+		cornered_fox 
                 dictator
                 ruthless_despot
             }
         }
     }
+
 }

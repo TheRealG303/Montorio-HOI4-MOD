@@ -1,0 +1,12 @@
+create_country_leader = {
+    name = "Jiajun Leonardo Cai"
+    desc = "POLITICS_JIAJUN_LEONARDO_CAI_DESC"
+    picture = GFX_portrait_PRC_jiajun_leonardo_cai
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+	cornered_fox
+        dictator
+        ruthless_despot
+
+}
