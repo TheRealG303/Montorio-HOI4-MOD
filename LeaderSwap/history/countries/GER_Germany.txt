@@ -7,5 +7,8 @@ create_country_leader = {
     traits = {
         dictator
         ruthless_despot
+	GER_der_fuhrer
+	fascist_sympathies
+	conservative_nationalist_lar
     }
 }
