@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = turkish_focus
 
 	country = {
@@ -1937,6 +1937,22 @@
 				TUR_placate_fundamentalist_state_random_target_effect = yes
 				TUR_placate_fundamentalist_state_random_target_effect = yes
 				TUR_placate_fundamentalist_state_random_target_effect = yes
+			}
+		}
+		# LeaderSwap mod: switch Patrizio Vitelli to fascist portrait
+		if = {
+			limit = {
+				has_character = TUR_patrizio_vitelli
+			}
+			TUR_patrizio_vitelli = {
+				set_portraits = {
+					civilian = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+					army = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+				}
 			}
 		}
 	}

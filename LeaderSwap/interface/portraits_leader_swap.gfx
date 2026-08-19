@@ -7,6 +7,10 @@ spriteTypes = {
         name = "GFX_portrait_ITA_lorenzo_capezzali"
         texturefile = "gfx/leaders/ITA/ITA_lorenzo_capezzali.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_ITA_lorenzo_capezzali2"
+        texturefile = "gfx/leaders/ITA/ITA_lorenzo_capezzali2.dds"
+    }
 	spriteType = {
         name = "GFX_portrait_TUR_patrizio_vitelli"
         texturefile = "gfx/leaders/TUR/TUR_patrizio_vitelli.dds"

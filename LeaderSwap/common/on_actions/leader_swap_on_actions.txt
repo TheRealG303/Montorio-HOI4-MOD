@@ -1,52 +1,239 @@
 on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { tag = GER }
+				recruit_character = GER_salvatore_grasso
+				promote_character = GER_salvatore_grasso
+			}
+			if = {
+				limit = { tag = ITA }
+				recruit_character = ITA_lorenzo_capezzali
+				promote_character = ITA_lorenzo_capezzali
+				if = {
+					limit = {
+						OR = {
+							has_global_flag = form_roman_empire_flag
+							has_cosmetic_tag = SPQR_UNIFIED
+							has_cosmetic_tag = ROM_UNIFIED
+							has_cosmetic_tag = SPQR
+							has_cosmetic_tag = ROM
+							tag = ROM
+						}
+					}
+					ITA_lorenzo_capezzali = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_ITA_lorenzo_capezzali2
+							}
+							army = {
+								large = GFX_portrait_ITA_lorenzo_capezzali2
+							}
+						}
+					}
+				}
+				else = {
+					ITA_lorenzo_capezzali = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_ITA_lorenzo_capezzali
+							}
+							army = {
+								large = GFX_portrait_ITA_lorenzo_capezzali
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = { tag = TUR }
+				recruit_character = TUR_patrizio_vitelli
+				promote_character = TUR_patrizio_vitelli
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+						}
+					}
+				}
+				else = {
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = { tag = PRC }
+				recruit_character = PRC_jiajun_leonardo_cai
+				promote_character = PRC_jiajun_leonardo_cai
+			}
+		}
+	}
+
 	on_ruling_party_change = {
 		effect = {
 			if = {
 				limit = {
 					original_tag = TUR
-					has_government = fascism
 				}
-				set_portraits = {
-					character = TUR_patrizio_vitelli
-					civilian = {
-						large = GFX_portrait_TUR_patrizio_vitelli2
+				if = {
+					limit = {
+						has_government = fascism
 					}
-					army = {
-						large = GFX_portrait_TUR_patrizio_vitelli2
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+						}
+					}
+				}
+				else = {
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+						}
 					}
 				}
 			}
-			else_if = {
+			if = {
 				limit = {
-					original_tag = TUR
-					NOT = { has_government = fascism }
+					original_tag = ITA
 				}
-				set_portraits = {
-					character = TUR_patrizio_vitelli
-					civilian = {
-						large = GFX_portrait_TUR_patrizio_vitelli
+				if = {
+					limit = {
+						OR = {
+							has_global_flag = form_roman_empire_flag
+							has_cosmetic_tag = SPQR_UNIFIED
+							has_cosmetic_tag = ROM_UNIFIED
+							has_cosmetic_tag = SPQR
+							has_cosmetic_tag = ROM
+							tag = ROM
+						}
 					}
-					army = {
-						large = GFX_portrait_TUR_patrizio_vitelli
+					ITA_lorenzo_capezzali = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_ITA_lorenzo_capezzali2
+							}
+							army = {
+								large = GFX_portrait_ITA_lorenzo_capezzali2
+							}
+						}
 					}
 				}
 			}
 		}
 	}
-	on_startup = {
+
+	on_daily_ITA = {
 		effect = {
 			if = {
 				limit = {
-					tag = TUR
-					has_government = fascism
-				}
-				set_portraits = {
-					character = TUR_patrizio_vitelli
-					civilian = {
-						large = GFX_portrait_TUR_patrizio_vitelli2
+					OR = {
+						has_global_flag = form_roman_empire_flag
+						has_cosmetic_tag = SPQR_UNIFIED
+						has_cosmetic_tag = ROM_UNIFIED
+						has_cosmetic_tag = SPQR
+						has_cosmetic_tag = ROM
+						tag = ROM
 					}
-					army = {
-						large = GFX_portrait_TUR_patrizio_vitelli2
+					NOT = { has_country_flag = ITA_capezzali_roman_portrait_set }
+				}
+				set_country_flag = ITA_capezzali_roman_portrait_set
+				ITA_lorenzo_capezzali = {
+					set_portraits = {
+						civilian = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+						army = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = ITA
+					OR = {
+						has_global_flag = form_roman_empire_flag
+						has_cosmetic_tag = SPQR_UNIFIED
+						has_cosmetic_tag = ROM_UNIFIED
+						has_cosmetic_tag = SPQR
+						has_cosmetic_tag = ROM
+						tag = ROM
+					}
+					NOT = { has_country_flag = ITA_capezzali_roman_portrait_set }
+				}
+				set_country_flag = ITA_capezzali_roman_portrait_set
+				ITA_lorenzo_capezzali = {
+					set_portraits = {
+						civilian = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+						army = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					original_tag = TUR
+				}
+				if = {
+					limit = {
+						has_government = fascism
+					}
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli2
+							}
+						}
+					}
+				}
+				else = {
+					TUR_patrizio_vitelli = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+							army = {
+								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+						}
 					}
 				}
 			}

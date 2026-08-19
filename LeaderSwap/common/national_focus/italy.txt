@@ -13870,6 +13870,22 @@ focus_tree = {
 				set_rule = { can_send_volunteers = yes }
 			}
 		}
+			# LeaderSwap mod: switch Lorenzo Capezzali to Roman Emperor portrait
+			if = {
+				limit = {
+					has_character = ITA_lorenzo_capezzali
+				}
+				ITA_lorenzo_capezzali = {
+					set_portraits = {
+						civilian = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+						army = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+					}
+				}
+			}
 	}
 
 	focus = {

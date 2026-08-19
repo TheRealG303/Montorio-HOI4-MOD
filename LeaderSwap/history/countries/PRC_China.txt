@@ -9,5 +9,5 @@ create_country_leader = {
         dictator
 	conservative_nationalist_lar
         ruthless_despot
-
+    }
 }
