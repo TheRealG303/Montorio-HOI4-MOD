@@ -1,0 +1,12 @@
+l_english:
+ # Nomi Leader
+ SALVATORE_GRASSO:0 "Salvatore Grasso"
+ LORENZO_CAPEZZALI:0 "Lorenzo Capezzali"
+ 
+ # Descrizioni
+ POLITICS_SALVATORE_GRASSO_DESC:0 "Salvatore Grasso è un leader carismatico che ha preso il controllo della Germania con pugno di ferro. La sua visione per il Reich è di dominio totale sull'Europa."
+ POLITICS_LORENZO_CAPEZZALI_DESC:0 "Lorenzo Capezzali guida l'Italia con determinazione e ambizione. Sogna di ricreare la gloria dell'Impero Romano sotto la sua guida."
+ 
+ # Tratti Personalizzati (opzionale)
+ GRASSO_TRAIT:0 "Il Visionario"
+ CAPEZZALI_TRAIT:0 "Il Stratega"

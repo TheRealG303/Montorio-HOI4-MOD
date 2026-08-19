@@ -1,0 +1,11 @@
+create_country_leader = {
+    name = "Lorenzo Capezzali"
+    desc = "POLITICS_LORENZO_CAPEZZALI_DESC"
+    picture = GFX_portrait_ITA_lorenzo_capezzali
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+        dictator
+        ruthless_despot
+    }
+}

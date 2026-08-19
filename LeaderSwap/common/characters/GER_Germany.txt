@@ -1,0 +1,23 @@
+characters = {
+    GER_salvatore_grasso = {
+        name = GER_salvatore_grasso
+        portraits = {
+            civilian = {
+                large = GFX_portrait_GER_salvatore_grasso
+            }
+            army = {
+                large = GFX_portrait_GER_salvatore_grasso
+            }
+        }
+        
+        country_leader = {
+            ideologist = fascism_ideology
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}

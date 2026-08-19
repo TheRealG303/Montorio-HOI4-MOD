@@ -1,0 +1,23 @@
+characters = {
+    ITA_lorenzo_capezzali = {
+        name = ITA_lorenzo_capezzali
+        portraits = {
+            civilian = {
+                large = GFX_portrait_ITA_lorenzo_capezzali
+            }
+            army = {
+                large = GFX_portrait_ITA_lorenzo_capezzali
+            }
+        }
+        
+        country_leader = {
+            ideologist = fascism_ideology
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}

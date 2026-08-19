@@ -1,0 +1,11 @@
+create_country_leader = {
+    name = "Salvatore Grasso"
+    desc = "POLITICS_SALVATORE_GRASSO_DESC"
+    picture = GFX_portrait_GER_salvatore_grasso
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+        dictator
+        ruthless_despot
+    }
+}
