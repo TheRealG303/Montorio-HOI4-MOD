@@ -12,3 +12,18 @@ create_country_leader = {
 	ruthless_despot
     }
 }
+
+create_country_leader = {
+    name = "Patrizio Vitelli"
+    desc = "POLITICS_PATRIZIO_VITELLI_DESC"
+    picture = GFX_portrait_TUR_patrizio_vitelli2
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+        dictator
+	father_of_the_turks
+	fascist_sympathies
+	conservative_nationalist_lar
+	ruthless_despot
+    }
+}

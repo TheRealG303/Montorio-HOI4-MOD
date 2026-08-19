@@ -1,0 +1,55 @@
+on_actions = {
+	on_ruling_party_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = TUR
+					has_government = fascism
+				}
+				set_portraits = {
+					character = TUR_patrizio_vitelli
+					civilian = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+					army = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					original_tag = TUR
+					NOT = { has_government = fascism }
+				}
+				set_portraits = {
+					character = TUR_patrizio_vitelli
+					civilian = {
+						large = GFX_portrait_TUR_patrizio_vitelli
+					}
+					army = {
+						large = GFX_portrait_TUR_patrizio_vitelli
+					}
+				}
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					tag = TUR
+					has_government = fascism
+				}
+				set_portraits = {
+					character = TUR_patrizio_vitelli
+					civilian = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+					army = {
+						large = GFX_portrait_TUR_patrizio_vitelli2
+					}
+				}
+			}
+		}
+	}
+}
