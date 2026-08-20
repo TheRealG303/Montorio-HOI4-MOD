@@ -35,7 +35,7 @@ Hai riscontrato un problema o vuoi proporre nuove idee per la mod?
 1. Scarica l'ultima versione dalla pagina delle [Releases](../../releases).
 2. Estrai il contenuto nella cartella mod di Hearts of Iron IV:
    * **Windows:** `C:\Utenti\<NomeUtente>\Documenti\Paradox Interactive\Hearts of Iron IV\mod\`
-   * * **Linux:** `~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/`
+   * **Linux:** `~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/`
    * **macOS:** `~/Documents/Paradox Interactive/Hearts of Iron IV/mod/`
 3. Assicurati che siano presenti sia la cartella del mod che il file `.mod` corrispondente.
 4. Apri il **Paradox Launcher**, aggiungi la mod al tuo **Playset** ed abilitala prima di avviare il gioco.
