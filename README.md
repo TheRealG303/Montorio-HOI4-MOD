@@ -16,9 +16,9 @@
 
 **🖼️ Anteprima**
 
-| Albero dei Focus | Leaders | Mappa di Gioco |
-| :---: | :---: | :---: |
-| *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* |
+| Albero dei Focus | Leaders | Mappa di Gioco | Menù Pèrincipale |
+| :---: | :---: | :---: | :---: |
+| *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* |
 
 ---
 
