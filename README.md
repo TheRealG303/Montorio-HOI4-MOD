@@ -16,7 +16,7 @@
 
 **🖼️ Anteprima**
 
-| Albero dei Focus | Eventi Nazionali | Mappa di Gioco |
+| Albero dei Focus | Leader | Mappa di Gioco |
 | :---: | :---: | :---: |
 | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* |
 
