@@ -32,6 +32,6 @@
 3. Assicurati che siano presenti sia la cartella del mod che il file `.mod` corrispondente.
 4. Apri il **Paradox Launcher**, aggiungi la mod al tuo **Playset** ed abilitala prima di avviare il gioco.
 
-**📜 Crediti e Licenza**
+**📜 Crediti**
 
 * Creato da **[Salvatore Grasso / SalvatoreIII + Lorenzo Capezzali / Bubolo_Uomo]**
