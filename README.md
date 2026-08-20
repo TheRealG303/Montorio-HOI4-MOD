@@ -9,7 +9,7 @@
 
 **✨ Caratteristiche Principali**
 
-* 🌳 **Albero dei Focus personalizzato:** Scegli l'ideologia dei Nuovi Zappatori e definisci il suo destino.
+* 🌳 **Albero dei Focus personalizzato:** Focus condiviso de I Nuovi Zappatori per Italia, Germania e Turchia.
 * 🎖️ **Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
 * 📋 **Nuovo Menu Principale:** custom made per Hearts Of Iron IV.
 
