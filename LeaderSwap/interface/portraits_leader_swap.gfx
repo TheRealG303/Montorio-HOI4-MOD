@@ -23,5 +23,8 @@ spriteTypes = {
         name = "GFX_portrait_PRC_jiajun_leonardo_cai"
         texturefile = "gfx/leaders/PRC/PRC_jiajun_leonardo_cai.dds"
     }
-	
+	spriteType = {
+        name = "GFX_portrait_POL_pierfrancesco_cantoresi"
+        texturefile = "gfx/leaders/POL/POL_pierfrancesco_cantoresi.dds"
+    }
 }
