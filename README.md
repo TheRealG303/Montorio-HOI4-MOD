@@ -15,7 +15,7 @@
 
 ---
 
-## 📅 Roadmap - Future Implementazioni
+**📅 Roadmap** 
 
 | Versione | Novità in arrivo | Stato |
 | :---: | :---: | :---: |
