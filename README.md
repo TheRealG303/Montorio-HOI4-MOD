@@ -2,7 +2,7 @@
 
 > *Riscrivi la storia e guida Montorio alla conquista del mondo su Hearts of Iron IV!*
 
-![HOI4 Version](https://img.shields.io/badge/HOI4-1.14.*-blue?style=for-the-badge)
+![HOI4 Version](https://img.shields.io/badge/HOI4-1.19.*-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Sviluppo-orange?style=for-the-badge)
 
