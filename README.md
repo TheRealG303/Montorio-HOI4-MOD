@@ -18,7 +18,7 @@
 
 | Albero dei Focus | Leaders | Mappa di Gioco | Menù Principale |
 | :---: | :---: | :---: | :---: |
-| *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* | *(Aggiungi screenshot)* |
+| ![Focus Tree](screenshots/focus_tree.png) | ![Leaders](screenshots/leaders.png) | ![Map](screenshots/map.png) | ![Menu](screenshots/menu.png) |
 
 ---
 
