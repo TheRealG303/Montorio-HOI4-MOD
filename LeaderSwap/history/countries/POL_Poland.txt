@@ -6,9 +6,8 @@ create_country_leader = {
     ideology = despotism
     traits = {
         the_last_romanov_maybe
-	conservative_nationalist_lar
-	patriot_king
+	    conservative_nationalist_lar
+	    patriot_king
         dictator
-        ruthless_despot
     }
 }

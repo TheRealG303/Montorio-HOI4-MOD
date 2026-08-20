@@ -6,10 +6,9 @@ create_country_leader = {
     ideology = despotism
     traits = {
         dictator
-	father_of_the_turks
-	fascist_sympathies
-	conservative_nationalist_lar
-	ruthless_despot
+	    father_of_the_turks
+	    fascist_sympathies
+	    conservative_nationalist_lar
     }
 }
 
@@ -21,9 +20,8 @@ create_country_leader = {
     ideology = fascism_ideology
     traits = {
         dictator
-	father_of_the_turks
-	fascist_sympathies
-	conservative_nationalist_lar
-	ruthless_despot
+	    father_of_the_turks
+	    fascist_sympathies
+	    conservative_nationalist_lar
     }
 }

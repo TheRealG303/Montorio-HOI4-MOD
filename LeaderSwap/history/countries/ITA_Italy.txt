@@ -6,9 +6,8 @@ create_country_leader = {
     ideology = fascism_ideology
     traits = {
         dictator
-        ruthless_despot
-	conservative_nationalist_lar
-	fascist_sympathies
-	il_duce
+	    conservative_nationalist_lar
+	    fascist_sympathies
+	    il_duce
     }
 }
