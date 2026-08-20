@@ -2,7 +2,7 @@
 
 > *Riscrivi la storia e guida i Montoriesi alla conquista del mondo su Hearts of Iron IV!*
 
-![Version](https://img.shields.io/badge/Version-1.19.*-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/Versione-1.19.*-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Sviluppo-orange?style=for-the-badge)
 
 ---
