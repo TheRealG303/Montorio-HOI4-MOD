@@ -22,6 +22,14 @@
 
 ---
 
+**🐛 Segnalazione Bug e Richieste**
+
+Hai riscontrato un problema o vuoi proporre nuove idee per la mod?
+* **Segnala un Bug:** Apri una segnalazione nella sezione [Issues](../../issues/new?template=bug_report.md) spiegando cosa è successo.
+* **Proponi un'Idea:** Invia i tuoi suggerimenti nella sezione [Discussions](../../discussions) o apri una [Feature Request](../../issues/new).
+  
+---
+
 **⚙️ Guida all'Installazione**
 
 1. Scarica l'ultima versione dalla pagina delle [Releases](../../releases).
@@ -31,6 +39,8 @@
    * **macOS:** `~/Documents/Paradox Interactive/Hearts of Iron IV/mod/`
 3. Assicurati che siano presenti sia la cartella del mod che il file `.mod` corrispondente.
 4. Apri il **Paradox Launcher**, aggiungi la mod al tuo **Playset** ed abilitala prima di avviare il gioco.
+
+---
 
 **📜 Crediti**
 
