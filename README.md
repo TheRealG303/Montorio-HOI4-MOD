@@ -20,7 +20,6 @@
 | :---: | :---: |
 | ![Focus Tree](screenshots/focus_tree.png) | ![Menu](screenshots/menu.png) |
 | Nuovi Leaders |
-| :---: |
 
 ---
 
