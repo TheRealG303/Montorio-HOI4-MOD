@@ -1,0 +1,14 @@
+create_country_leader = {
+    name = "Pierfrancesco Cantoresi"
+    desc = "POLITICS_PIERFRANCESCO_CANTORESI_DESC"
+    picture = GFX_portrait_POL_pierfrancesco_cantoresi
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        the_last_romanov_maybe
+	conservative_nationalist_lar
+	patriot_king
+        dictator
+        ruthless_despot
+    }
+}

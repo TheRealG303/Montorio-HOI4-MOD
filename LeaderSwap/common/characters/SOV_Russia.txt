@@ -1,0 +1,24 @@
+characters = {
+    SOV_matteo_ragni = {
+        name = SOV_matteo_ragni
+        portraits = {
+            civilian = {
+                large = GFX_portrait_SOV_matteo_ragni
+            }
+            army = {
+                large = GFX_portrait_SOV_matteo_ragni
+            }
+        }
+        
+        country_leader = {
+            ideology = stalinism
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+		conservative_nationalist_lar
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}

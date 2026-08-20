@@ -1,0 +1,26 @@
+characters = {
+    POL_pierfrancesco_cantoresi = {
+        name = POL_pierfrancesco_cantoresi
+        portraits = {
+            civilian = {
+                large = GFX_portrait_POL_pierfrancesco_cantoresi
+            }
+            army = {
+                large = GFX_portrait_POL_pierfrancesco_cantoresi
+            }
+        }
+        
+        country_leader = {
+            ideology = despotism
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+		the_last_romanov_maybe
+		conservative_nationalist_lar
+		patriot_king
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}

@@ -237,6 +237,34 @@ on_actions = {
 					}
 				}
 			}
-		}
-	}
+			if = {
+                limit = {
+                    OR = {
+                        tag = SPA
+                        tag = SPR
+                    }
+                }
+                recruit_character = SPA_leonardo_marini
+                promote_character = SPA_leonardo_marini
+                if = {
+                    limit = {
+                        OR = {
+                            has_government = fascism
+                            has_government = falangism
+                        }
+                    }
+                    SPA_leonardo_marini = {
+                        set_portraits = {
+                            civilian = {
+                                large = GFX_portrait_SPA_leonardo_marini_falangist
+                            }
+                            army = {
+                                large = GFX_portrait_SPA_leonardo_marini_falangist
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
