@@ -26,8 +26,7 @@
 
 Hai riscontrato un problema o vuoi proporre nuove idee per la mod?
 * **Segnala un Bug:** Apri una segnalazione nella sezione [Issues](../../issues/new?template=bug_report.md) spiegando cosa è successo.
-* **Proponi un'Idea:** Invia i tuoi suggerimenti nella sezione [Discussions](../../discussions) o apri una [Feature Request](../../issues/new).
-  
+
 ---
 
 **⚙️ Guida all'Installazione**
