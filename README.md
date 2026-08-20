@@ -20,8 +20,8 @@
 | Versione | Novità in arrivo | Stato |
 | :---: | :---: | :---: |
 | **v0.0.5** | • Bugfix | ✅ Completato |
-| **v0.0.6** | • Nuovi eventi storici e scenari alternativi<br>• Aggiunta di unità speciali "Zappatori d'Assalto"<br>• Supporto per la lingua inglese | 🔄 In sviluppo |
-
+| **v0.0.6** | • Nuovi focus e bugfix del focus "I Nuovi Zappatori" | 🔄 In sviluppo |
+| **v0.0.7** | • Nuovi tratti per i leaders | 📋 Pianificato |
 ---
 
 **🖼️ Anteprima**
