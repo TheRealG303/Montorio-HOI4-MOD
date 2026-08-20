@@ -15,6 +15,15 @@
 
 ---
 
+## 📅 Roadmap - Future Implementazioni
+
+| Versione | Novità in arrivo | Stato |
+| :---: | :---: | :---: |
+| **v0.0.5** | • Bugfix | ✅ Completato |
+| **v0.0.6** | • Nuovi eventi storici e scenari alternativi<br>• Aggiunta di unità speciali "Zappatori d'Assalto"<br>• Supporto per la lingua inglese | 🔄 In sviluppo |
+
+---
+
 **🖼️ Anteprima**
 
 | Albero dei Focus | Menù Principale |
