@@ -39,5 +39,4 @@ spriteTypes = {
         name = "GFX_portrait_SPA_leonardo_marini_falangist"
         texturefile = "gfx/leaders/SPA/SPA_leonardo_marini.dds"
     }
-    
 }
