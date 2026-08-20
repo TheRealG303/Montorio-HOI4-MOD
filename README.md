@@ -10,11 +10,8 @@
 
 **✨ Caratteristiche Principali**
 
-* **🌳 Albero dei Focus personalizzato:** Scegli l'ideologia di Montorio e definisci il suo destino (Democrazia, Comunismo, Fascismo o Non-Allineato).
-* **📜 Eventi e Decisioni:** Decine di eventi storici e di storia alternativa con scelte ad alto impatto diplomatico e militare.
-* **🎖️ Generali e Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
-* **🎶 GFX e Colonna Sonora:** Icone personalizzate per focus e idee, con brani musicali dedicati.
-* **🏭 Sviluppo Industriale Locale:** Meccaniche uniche per trasformare la regione in una potenza industriale.
+* **🌳 Albero dei Focus personalizzato:** Scegli l'ideologia di Montorio e definisci il suo destino.
+* **🎖️ Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
 
 ---
 
