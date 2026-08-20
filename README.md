@@ -19,7 +19,7 @@
 | Albero dei Focus | Menù Principale |
 | :---: | :---: |
 | ![Focus Tree](screenshots/focus_tree.png) | ![Menu](screenshots/menu.png) |
-| ![Focus Tree](screenshots/focus_tree2.png)|
+| Nuovi Leaders |
 
 ---
 
