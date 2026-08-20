@@ -9,8 +9,8 @@
 
 **✨ Caratteristiche Principali**
 
-* **🌳 Albero dei Focus personalizzato:** Scegli l'ideologia dei Nuovi Zappatori e definisci il suo destino.
-* **🎖️ Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
+* 🌳 Albero dei Focus personalizzato:** Scegli l'ideologia dei Nuovi Zappatori e definisci il suo destino.
+* 🎖️ Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
 * 📋 Nuovo Menu Principale di Hearts Of Iron IV.
 
 ---
