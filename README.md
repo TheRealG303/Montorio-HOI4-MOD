@@ -7,7 +7,7 @@
 
 ---
 
-# ✨ Caratteristiche Principali
+**✨ Caratteristiche Principali**
 
 * 🌳 **Albero dei Focus personalizzato:** Scegli l'ideologia dei Nuovi Zappatori e definisci il suo destino.
 * 🎖️ **Leader Custom:** Ritratti personalizzati per tutti i leader politici e i comandanti dell'esercito.
@@ -15,7 +15,7 @@
 
 ---
 
-# 📅 Roadmap
+**📅 Roadmap**
 
 | Versione | Novità in arrivo | Stato |
 | :---: | :---: | :---: |
@@ -24,7 +24,7 @@
 | **v0.0.7** | • Nuovi tratti per i leaders | 📋 Pianificato |
 ---
 
-# 🖼️ Anteprima
+**🖼️ Anteprima**
 
 | Albero dei Focus | Menù Principale |
 | :---: | :---: |
@@ -33,14 +33,14 @@
 
 ---
 
-# 🐛 Segnalazione Bug e Richieste
+**🐛 Segnalazione Bug e Richieste**
 
 Hai riscontrato un problema o vuoi proporre nuove idee per la mod?
 * **Segnala un Bug:** Apri una segnalazione nella sezione [Issues](../../issues/new?template=bug_report.md) spiegando cosa è successo.
 
 ---
 
-# ⚙️ Guida all'Installazione
+**⚙️ Guida all'Installazione**
 
 1. Scarica l'ultima versione dalla pagina delle [Releases](../../releases).
 2. Estrai il contenuto nella cartella mod di Hearts of Iron IV:
@@ -52,6 +52,6 @@ Hai riscontrato un problema o vuoi proporre nuove idee per la mod?
 
 ---
 
-# 📜 Crediti
+**📜 Crediti**
 
 * Creato da **[Salvatore Grasso / SalvatoreIII + Lorenzo Capezzali / Bubolo_Uomo]**
