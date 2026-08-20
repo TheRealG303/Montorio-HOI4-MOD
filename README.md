@@ -16,9 +16,10 @@
 
 **🖼️ Anteprima**
 
-| Albero dei Focus | Leaders | Mappa di Gioco | Menù Principale |
+| Albero dei Focus | Menù Principale |
 | :---: | :---: | :---: | :---: |
-| ![Focus Tree](screenshots/focus_tree.png) | ![Leaders](screenshots/leaders.png) | ![Map](screenshots/map.png) | ![Menu](screenshots/menu.png) |
+| ![Focus Tree](screenshots/focus_tree.png) | ![Menu](screenshots/menu.png) |
+| ![Focus Tree](screenshots/focus_tree2.png) |
 
 ---
 
