@@ -1,0 +1,12 @@
+create_country_leader = {
+    name = "Lorenzo Agachi"
+    desc = "POLITICS_LORENZO_AGACHI_DESC"
+    picture = GFX_portrait_ROM_lorenzo_agachi
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+        dictator
+	conservative_nationalist_lar
+        ruthless_despot
+    }
+}

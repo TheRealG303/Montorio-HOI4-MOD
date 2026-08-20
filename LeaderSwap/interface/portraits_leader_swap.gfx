@@ -27,4 +27,8 @@ spriteTypes = {
         name = "GFX_portrait_POL_pierfrancesco_cantoresi"
         texturefile = "gfx/leaders/POL/POL_pierfrancesco_cantoresi.dds"
     }
+		spriteType = {
+        name = "GFX_portrait_ROM_lorenzo_agachi"
+        texturefile = "gfx/leaders/ROM/ROM_lorenzo_agachi.dds"
+    }
 }

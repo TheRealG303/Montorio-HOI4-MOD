@@ -1,0 +1,24 @@
+characters = {
+    ROM_lorenzo_agachi = {
+        name = ROM_lorenzo_agachi
+        portraits = {
+            civilian = {
+                large = GFX_portrait_ROM_lorenzo_agachi
+            }
+            army = {
+                large = GFX_portrait_ROM_lorenzo_agachi
+            }
+        }
+        
+        country_leader = {
+            ideology = conservatism
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+		conservative_nationalist_lar
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}

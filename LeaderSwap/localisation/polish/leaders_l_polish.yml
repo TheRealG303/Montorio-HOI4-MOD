@@ -5,12 +5,14 @@
  PATRIZIO_VITELLI:0 "Patrizio Vitelli"
  JIAJUN_LEONARDO_CAI:0 "Jiajun Leonardo Cai"
  PIERFRANCESCO_CANTORESI:0 "Pierfrancesco Cantoresi"
+ LORENZO_AGACHI:0 "Lorenzo Agachi"
  
  GER_salvatore_grasso:0 "Salvatore Grasso"
  ITA_lorenzo_capezzali:0 "Lorenzo Capezzali"
  TUR_patrizio_vitelli:0 "Patrizio Vitelli"
  PRC_jiajun_leonardo_cai:0 "Jiajun Leonardo Cai"
  POL_pierfrancesco_cantoresi:0 "Pierfrancesco Cantoresi"
+ ROM_lorenzo_agachi:0 "Lorenzo Agachi"
 
 
  # Descrizioni
@@ -19,7 +21,7 @@
  POLITICS_PATRIZIO_VITELLI_DESC:0 "Patrizio Vitelli è proprio un negraccio scappellatore."
  POLITICS_JIAJUN_LEONARDO_CAI_DESC:0 "Jiajun Leonardo Cai il pianificatore instancabile che trasforma la logistica in potenza industriale."
  POLITICS_PIERFRANCESCO_CANTORESI_DESC:0 "Pierfrancesco Cantoresi è stato spedito sul pianeta serra in nome della resistenza, ma casualmente si è ritrovato a condurre alla gloria il regno di polonia"
-
+ POLITICS_LORENZO_AGACHI_DESC:0 "Lorenzo Agachi è stato un vaoloroso soldato che è riusciro a scalare i piu alti gradi dell'esercito all'unico fine di rendere, la sua madre patria, romania una grande potenza globale"
 
  # Tratti Personalizzati (opzionale)
  GRASSO_TRAIT:0 "Il Femboy"
@@ -27,3 +29,4 @@
  VITELLI_TRAIT:0 "Il Negro"
  CAI_TRAIT:0 "Il Cinese"
  PIERFRANCESCO_CANTORESI:0 "L'Unopano"
+ LORENZO_AGACHI:0 "Il Rumeno"
