@@ -1,0 +1,12 @@
+create_country_leader = {
+    name = "Matteo Ragni"
+    desc = "POLITICS_MATTEO_RAGNI_DESC"
+    picture = GFX_portrait_SOV_matteo_ragni
+    expire = "1965.1.1"
+    ideology = stalinism
+    traits = {
+        dictator
+	conservative_nationalist_lar
+        ruthless_despot
+    }
+}
