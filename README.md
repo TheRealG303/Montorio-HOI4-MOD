@@ -1,4 +1,4 @@
-# 🎖️ Montorio-HOI4-MOD
+# 🎖️ Montorio HOI4 MOD
 
 > *Riscrivi la storia e guida i Montoriesi alla conquista del mondo su Hearts of Iron IV!*
 
