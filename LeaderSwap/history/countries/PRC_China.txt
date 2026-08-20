@@ -5,9 +5,8 @@ create_country_leader = {
     expire = "1965.1.1"
     ideology = marxism
     traits = {
-	cornered_fox
+	    cornered_fox
         dictator
-	conservative_nationalist_lar
-        ruthless_despot
+	    conservative_nationalist_lar
     }
 }

@@ -19,6 +19,8 @@ on_actions = {
 							has_cosmetic_tag = SPQR
 							has_cosmetic_tag = ROM
 							tag = ROM
+							has_completed_focus = ITA_mare_nostrum_bba
+							has_completed_focus = ITA_a_colonial_empire
 						}
 					}
 					ITA_lorenzo_capezzali = {
@@ -82,6 +84,34 @@ on_actions = {
 				recruit_character = PRC_jiajun_leonardo_cai
 				promote_character = PRC_jiajun_leonardo_cai
 			}
+			if = {
+				limit = {
+					OR = {
+						tag = SPA
+						tag = SPR
+					}
+				}
+				recruit_character = SPA_leonardo_marini
+				promote_character = SPA_leonardo_marini
+				if = {
+					limit = {
+						OR = {
+							has_government = fascism
+							has_government = falangism
+						}
+					}
+					SPA_leonardo_marini = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
+							}
+							army = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -132,6 +162,8 @@ on_actions = {
 							has_cosmetic_tag = SPQR
 							has_cosmetic_tag = ROM
 							tag = ROM
+							has_completed_focus = ITA_mare_nostrum_bba
+							has_completed_focus = ITA_a_colonial_empire
 						}
 					}
 					ITA_lorenzo_capezzali = {
@@ -141,6 +173,56 @@ on_actions = {
 							}
 							army = {
 								large = GFX_portrait_ITA_lorenzo_capezzali2
+							}
+						}
+					}
+				}
+				else = {
+					ITA_lorenzo_capezzali = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_ITA_lorenzo_capezzali
+							}
+							army = {
+								large = GFX_portrait_ITA_lorenzo_capezzali
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = SPA
+						tag = SPR
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							has_government = fascism
+							has_government = falangism
+						}
+					}
+					SPA_leonardo_marini = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
+							}
+							army = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
+							}
+						}
+					}
+					else = {
+						SPA_leonardo_marini = {
+							set_portraits = {
+								civilian = {
+									large = GFX_portrait_SPA_leonardo_marini
+								}
+								army = {
+									large = GFX_portrait_SPA_leonardo_marini
+								}
 							}
 						}
 					}
@@ -160,6 +242,8 @@ on_actions = {
 						has_cosmetic_tag = SPQR
 						has_cosmetic_tag = ROM
 						tag = ROM
+						has_completed_focus = ITA_mare_nostrum_bba
+						has_completed_focus = ITA_a_colonial_empire
 					}
 					NOT = { has_country_flag = ITA_capezzali_roman_portrait_set }
 				}
@@ -190,6 +274,8 @@ on_actions = {
 						has_cosmetic_tag = SPQR
 						has_cosmetic_tag = ROM
 						tag = ROM
+						has_completed_focus = ITA_mare_nostrum_bba
+						has_completed_focus = ITA_a_colonial_empire
 					}
 					NOT = { has_country_flag = ITA_capezzali_roman_portrait_set }
 				}
@@ -201,6 +287,35 @@ on_actions = {
 						}
 						army = {
 							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					original_tag = ITA
+					has_country_flag = ITA_capezzali_roman_portrait_set
+					NOT = {
+						OR = {
+							has_global_flag = form_roman_empire_flag
+							has_cosmetic_tag = SPQR_UNIFIED
+							has_cosmetic_tag = ROM_UNIFIED
+							has_cosmetic_tag = SPQR
+							has_cosmetic_tag = ROM
+							tag = ROM
+							has_completed_focus = ITA_mare_nostrum_bba
+							has_completed_focus = ITA_a_colonial_empire
+						}
+					}
+				}
+				clr_country_flag = ITA_capezzali_roman_portrait_set
+				ITA_lorenzo_capezzali = {
+					set_portraits = {
+						civilian = {
+							large = GFX_portrait_ITA_lorenzo_capezzali
+						}
+						army = {
+							large = GFX_portrait_ITA_lorenzo_capezzali
 						}
 					}
 				}
@@ -232,6 +347,34 @@ on_actions = {
 							}
 							army = {
 								large = GFX_portrait_TUR_patrizio_vitelli
+							}
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = SPA
+						tag = SPR
+					}
+				}
+				recruit_character = SPA_leonardo_marini
+				promote_character = SPA_leonardo_marini
+				if = {
+					limit = {
+						OR = {
+							has_government = fascism
+							has_government = falangism
+						}
+					}
+					SPA_leonardo_marini = {
+						set_portraits = {
+							civilian = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
+							}
+							army = {
+								large = GFX_portrait_SPA_leonardo_marini_falangist
 							}
 						}
 					}

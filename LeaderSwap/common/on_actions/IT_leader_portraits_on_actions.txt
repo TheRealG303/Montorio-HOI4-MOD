@@ -1,0 +1,28 @@
+on_actions = {
+	on_focus_completed = {
+		effect = {
+			if = {
+				limit = {
+					tag = ITA
+					OR = {
+						has_completed_focus = ITA_mare_nostrum_bba
+						has_completed_focus = ITA_a_colonial_empire
+						has_completed_focus = ITA_capo_supremo
+					}
+					NOT = { has_country_flag = ITA_capezzali_roman_portrait_set }
+				}
+				set_country_flag = ITA_capezzali_roman_portrait_set
+				ITA_lorenzo_capezzali = {
+					set_portraits = {
+						civilian = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+						army = {
+							large = GFX_portrait_ITA_lorenzo_capezzali2
+						}
+					}
+				}
+			}
+		}
+	}
+}

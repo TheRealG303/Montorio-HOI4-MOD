@@ -6,7 +6,5 @@ create_country_leader = {
     ideology = stalinism
     traits = {
         dictator
-	conservative_nationalist_lar
-        ruthless_despot
     }
 }

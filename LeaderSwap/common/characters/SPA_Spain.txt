@@ -1,0 +1,41 @@
+characters = {
+    SPA_leonardo_marini = {
+        name = SPA_leonardo_marini
+        portraits = {
+            civilian = {
+                large = GFX_portrait_SPA_leonardo_marini
+            }
+            army = {
+                large = GFX_portrait_SPA_leonardo_marini
+            }
+        }
+        
+        country_leader = {
+            ideology = falangism
+            expire = "1965.1.1"
+            id = -1
+            traits = { 
+                caudillo
+                fascist_sympathies
+                conservative_nationalist_lar
+                dictator
+                ruthless_despot
+            }
+        }
+    }
+}
+
+create_country_leader = {
+    name = "Leonardo Marini"
+    desc = "POLITICS_LEONARDO_MARINI_DESC"
+    picture = GFX_portrait_SPA_leonardo_marini
+    expire = "1965.1.1"
+    ideology = falangism_ideology
+    traits = {
+        caudillo
+        fascist_sympathies
+        conservative_nationalist_lar
+        dictator
+        ruthless_despot
+    }
+}

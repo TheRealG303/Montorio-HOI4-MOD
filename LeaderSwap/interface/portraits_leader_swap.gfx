@@ -35,4 +35,8 @@ spriteTypes = {
         name = "GFX_portrait_SOV_matteo_ragni"
         texturefile = "gfx/leaders/SOV/SOV_matteo_ragni.dds"
     }
+    spriteType = {
+        name = "GFX_portrait_SPA_leonardo_marini_falangist"
+        texturefile = "gfx/leaders/SPA/SPA_leonardo_marini.dds"
+    }
 }
